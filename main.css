@@ -7,12 +7,17 @@ html, body {
 	height: 50px;
 	background-color: orange;
 }
-div ul li{
+#nav ul{
+	margin: 0;
+}
+#nav ul li{
 	display: inline;
+	line-height: 3;
 }
 i{
 	line-height: 2 !important;
-	margin-left: 10px !important;
+	margin-left: 30px !important;
+	float: left;
 }
 li{
 	margin-left: 24px;
